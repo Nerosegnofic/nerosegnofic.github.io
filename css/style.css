@@ -572,6 +572,12 @@ button:focus-visible,
 }
 
 /* ---------- Education ---------- */
+.edu-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
 .edu-card {
   background: var(--panel);
   border: 1px solid var(--border-soft);
